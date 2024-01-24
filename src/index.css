@@ -1,0 +1,24 @@
+.arrow {
+    position: absolute;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes bounceAlpha {
+    0% { opacity: 1; transform: translateX(0px) scale(1); }
+    25% { opacity: 0; transform: translateX(10px) scale(0.9); }
+    26% { opacity: 0; transform: translateX(-10px) scale(0.9); }
+    55% { opacity: 1; transform: translateX(0px) scale(1); }
+  }
+  .round:hover .arrow {
+    animation-name: bounceAlpha;
+  }
+  @keyframes reverseBounceAlpha {
+    0% { opacity: 1; transform: translateX(0px) scale(1); }
+    25% { opacity: 0; transform: translateX(-10px) scale(0.9); }
+    26% { opacity: 0; transform: translateX(10px) scale(0.9); }
+    100% { opacity: 1; transform: translateX(0px) scale(1); }
+  }
+  .round:not(:hover) .arrow {
+    animation: reverseBounceAlpha 0.5s linear; /* Apply reverse animation when not hovered */
+  }
