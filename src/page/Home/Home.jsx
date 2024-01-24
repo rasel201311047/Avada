@@ -21,7 +21,7 @@ const Home = () => {
       <Comunity></Comunity>
       <Sqrcomu></Sqrcomu>
       <Container>
-        <Ques></Ques>
+        
         <Buildaba></Buildaba>
       </Container>
       <Footer></Footer>

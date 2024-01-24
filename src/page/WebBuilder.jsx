@@ -9,6 +9,7 @@ import image3 from "../assets/w3.png";
 import image4 from "../assets/w4.png";
 import image5 from "../assets/w5.png";
 import image6 from "../assets/w6.png";
+import { FaArrowRight } from "react-icons/fa";
 const WebBuilder = () => {
     const data = [
         {
@@ -69,7 +70,11 @@ const WebBuilder = () => {
             </Col>
           ))}
         </Row>
-        <Button className="mt-3 px-5 py-3" variant="dark">Discover More</Button>
+
+        <Button variant="dark" className="px-5 mt-3 py-3 round">
+                  Discover More
+                  <span className="arrow ms-2"><FaArrowRight /></span>
+        </Button>
       </div>
     </div>
   );
