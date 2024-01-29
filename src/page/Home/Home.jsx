@@ -9,6 +9,7 @@ import Sqrcomu from "../Sqrcomu";
 import Ques from "../Ques";
 import Buildaba from "../Buildaba";
 import Footer from "../Footer";
+import Designbuild from "../Design/Designbuild";
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
         <Navigation></Navigation>
         <Border></Border>
         <Course></Course>
+        <Designbuild></Designbuild>
         <WebBuilder></WebBuilder>
       </Container>
       <Comunity></Comunity>

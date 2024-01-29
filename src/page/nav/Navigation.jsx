@@ -32,9 +32,7 @@ const Navigation = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <NavDropdown title="Avada " id="basic-nav-dropdown" className="px-2">
-              <NavDropdown.Item href="#action/3.1"><h3>Live Visual Bu</h3></NavDropdown.Item>
-            </NavDropdown>
+
 
             <NavDropdown title="Avada For " id="basic-nav-dropdown" className="px-2">
               <NavDropdown.Item href="#action/3.1">
@@ -71,13 +69,13 @@ const Navigation = () => {
                 </div>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" className="px-2" disabled>
+            <Nav.Link href="#" style={{color:"#212529bf"}} className="px-2 " disabled>
               Hosting
             </Nav.Link>
-            <Nav.Link href="#" className="px-2" disabled>
+            <Nav.Link href="#" style={{color:"#212529bf"}} className="px-2" disabled>
               Customization
             </Nav.Link>
-            <NavDropdown title="Resources " className="px-2" id="basic-nav-dropdown">
+            <NavDropdown style={{color:"#212529bf"}} title="Resources " className="px-2" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             </NavDropdown>
           </Nav>
